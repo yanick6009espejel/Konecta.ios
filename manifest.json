@@ -1,0 +1,25 @@
+cat > /mnt/user-data/outputs/manifest.json << 'EOF'
+{
+  "name": "Konecta · Tu Alma",
+  "short_name": "Konecta",
+  "description": "Plataforma clínica virtual para especialistas",
+  "start_url": "/Konecta/",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#063D3B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/063D3B/C59D83?text=K",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/063D3B/C59D83?text=K",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+EOF
+echo "OK"
